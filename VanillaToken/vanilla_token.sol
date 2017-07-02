@@ -17,7 +17,7 @@ contract VanillaToken is ERC20Interface{
 
     address owner;
     string public constant name = "Vanilla Token";
-    string public constant symbol = "Vanilla";
+    string public constant symbol = "VT";
     uint8 public constant decimals = 8;
     uint256 public constant _totalSupply = 2100000000000000;
 
@@ -80,7 +80,7 @@ contract VanillaToken is ERC20Interface{
 
     // fallback function
     function() payable {
-      
+
     }
 
 }
